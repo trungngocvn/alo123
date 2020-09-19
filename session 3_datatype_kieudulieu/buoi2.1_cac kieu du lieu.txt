@@ -1,0 +1,67 @@
+Các kiểu dữ liệu ( 5 kiểu )
+
+Number	-> Số nguyên ( interger )
+	-> Số thực ( float )
+
+String	-> chuỗi ( văn bản )
+
+Boolean	-> true
+
+	-> false
+
+Array ( Mảng )
+
+Object
+
+
+1.Number
+
+let a = 5; (biến a có kiểu dữ liệu là số nguyên)
+let b = 3,14 ( biến b có kiểu dữ liệu là số thực )
+let c = 2;
+let d = a / c; => ngôn ngữ lập trình mặc định chuyển thành kiểu số thực
+
+Chuyển kiểu dữ liệu -> chuyển sang số nguyên : parseInt(gia trị hoặc tên biến )
+Chuyển kiểu dữ liệu -> chuyển sang số thực : parseFloat(gia trị hoặc tên biến )
+Chuyển sang kiểu số -> Number (giá trị)
+
+Ghi chú : các hàm trên không làm thay đổi kiểu dữ liệu của biến truyền vào
+
+2.String
+
+"" , '' , `` ( dấu này gọi được biến ở bên trong )
+phép tính trên chuỗi
+
+"xin chào" + name = ( ra 1 chuỗi khác )
+
+string + string = string ( gộp chuỗi , cộng chuỗi )
+string - string =
+string * string =	NAN ( not a number ) hoặc number
+string / string =	
+
+
+Number -*/ string =
+			NAN ( not a number ) hoặc number
+String -*/ number =
+
+
+3. Các phép toán trên số.
+
++ - * / %
+
+tăng giảm giá trị 1 biến
+
+a = a + 5 -> viết tắt a +=5
+a = a - 5	      a -=5
+a = a * 5	      a *=5	
+a = a / 5	      a /=5
+
+++ --
+
+a++ tăng lên 1 đơn vị sau khi thực hiện câu lệnh hiện tại
+++a tăng lên 1 đơn vị trước khi thực hiện câu lệnh hiện tại
+
+log (a++); = log(a);
+	     a++ ;
+log (++a); = ++a ;
+	     log(a) ;

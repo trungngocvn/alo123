@@ -1,0 +1,58 @@
+Câu lệnh điều kiện
+
+Cú pháp : if ( condition ) {
+				code 1		-> Nếu condition là đúng thì code 1 được chạy, sai thì bỏ qua , 
+						chạy câu lệnh tiếp
+
+					}
+	  else if (condition 2 ) {
+				code 2 
+					}
+
+	  else if ( condition 3 ) { 
+					code 3 
+						}
+
+	  else
+
+
+Nếu code nào chạy trước , cả đoạn còn lại sẽ bị bỏ qua.
+Nếu tất cả đều sai thì chạy code n
+
+cho người dùng nhập vào 1 số , so sánh số đó với số 10, nhập ra số đó lớn hơn hoặc nhỏ hơn hoặc = số 10 ( đã giải )
+
+Condition.
+
+Là các mệnh đề trả về giá trị đúng hoặc sai ( boolean )
+
+Toán học : 	< > =  #  >=  <=
+Lập trình:	< > == != >=  <=
+		    === !==
+
+		== ( chỉ so sánh về mặt giá trị )
+	       === ( so sánh về giá trị và kiểu dữ liệu )
+
+C = A and B -> A && B
+C = A or B -> A || B
+-
+A = !A
+
+
+!(A && B ) = !A || !B
+!(A || B ) = !A && !B
+
+Cho người dùng nhập vào chiều cao , cân nặng , in ra trạng thái BMI của người dùng
+
+
+Switch ( biến ) {
+			case gia trị 1:
+			code 1;
+			break;
+			case giá trị 2:
+			code 2
+			break;
+			code n
+
+if else if tương đương với switch case
+	
+	  

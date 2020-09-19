@@ -1,0 +1,12 @@
+Loop
+
+Cú pháp
+
+	for ( điểm bắt đầu ; điểm kết thúc ; bước thực thi ) {
+			code lặp lại
+					}
+
+in 1 -> 10
+in số lẻ từ 0 ->10
+in số chẵn từ 0 -> 10
+in từ 10 -> 0

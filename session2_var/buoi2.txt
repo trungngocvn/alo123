@@ -1,0 +1,30 @@
+Lấy dữ liệu từ người dùng. ( lấy data từ phía client )
+
+cú pháp:
+prompt("dữ liệu cần lấy từ người dùng");
+
+let name = prompt("nhập tên") 
+vừa khai báo cho nhập dữ liệu
+
+- QUY TẮC đặt tiên biến : 
+4 quy tắc: - Chỉ chứa chữ cái A -> Z , a -> z; 0-9
+	   - 2 kí tự đặc biệt : $ và _
+
+Không được bắt đầu bằng chữ số.
+Không được trùng với từ khóa vd : var , let , const.
+Biến có phân biệt hoa - thường
+- QUY ƯỚC đặt tên biến :
+đặt tên biến theo phong cách: camelCase
+name , age , yearOfBirth , trungNgoc
+
+- Sự khác biệt giữa var và let
+var - phạm vi sử dụng lớn hơn
+let - phạm vi sử dụng nhỏ hơn , chỉ trong một block code.
+
+ưu tiên let hơn vì nếu dùng var thì sẽ phải gọi tất cả các biến var lên , tốn bộ nhớ
+
+block code được xác định bằng {}
+
+phim tắt ctrl+space ra gợi ý. , cả tìm file cả code.
+
+
