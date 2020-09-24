@@ -1,0 +1,34 @@
+a.unshift(gia tri); => thêm vào mảng ở vị trí đầu , giống push nhưng push thêm vào ở cuối
+a[index] = gia tri; => sửa giá trị trong mảng
+a.splice(index, count ); ( xóa count phần từ tử index )
+a.pop(); xóa 1 phần tử ở cuối và trả ra phần tử đó
+a.shift(); xóa 1 phần tử ở đầu và trả ra phần tử đó
+
+stack => first in , last out
+queue => first in , first out
+a.unshift()
+		-> , tạo ra 1 stack
+a.shift()
+
+a.push()
+		-> , tạo ra 1 stack
+a.pop()
+
+a.unshift()
+		-> tạo ra 1 queue
+
+a.push()
+
+a.pop()
+		-> tạo ra 1 queue
+a.shift()
+
+
+----------------------------------------------
+vòng lặp không xác định số lần lặp
+while(condition) {
+	//code
+		}
+
+continue; , bỏ qua lượt lặp hiện tại chuyển qua lượt lặp kế tiếp
+break;	thoát hẳn khỏi vòng lặp
