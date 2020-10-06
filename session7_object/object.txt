@@ -1,0 +1,25 @@
+Cú pháp: let bien = {}; //object rỗng
+
+         let bien = {
+                "key": value;
+                'key1':value1;
+                key2: value2; 
+
+         };
+
+Đặc điểm: KEY + không được trùng nhau, chỉ có kiểu dữ liệu string
+              + nếu khai báo nhiều khi key trùng , thì chỉ nhận key cuối
+          VALUE + chứa giá trị của key tương ứng , datatype bất kì
+            
+
+Truy vấn: object["key"]
+          object.key
+Thêm:     object.key mới = value;
+          object['key mới'] = value;
+Sửa:      object.key cũ = value;
+          object['key cũ'] = value;
+Xóa:      delete object['key];
+          delete object.key;
+Duyệt:    for (const key in object) {
+                    object['key'];
+}

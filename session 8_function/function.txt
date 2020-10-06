@@ -1,0 +1,20 @@
+Khai báo 1 lần và sử dụng nhiều lần mỗi khi được gọi đến
+Cú pháp khai báo: function tên function (ds tham số) {
+            //code
+}
+sử dụng: tên function();
+         tên function(ds biến); ( danh sách các biến cách nhau = dấu ,)
+
+Return 
+trong function , mục đích là để trả về kết quả
+function x(){
+    //code
+
+    return;
+    return biến;
+}
+
+sau khi return, function sẽ bị dừng lại
+
+sử dụng :
+let biến = x()

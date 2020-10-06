@@ -1,0 +1,80 @@
+JSON: là 1 chuỗi có cấu trúc, cấu trúc để lưu trữ và truyền dữ liệu.
+AJAX: giúp gửi request lên server và nhận response về mà không phải load lại trang
+
+Session 10: HTML
+Thuộc tính của HTML
+nằm ở thẻ mở <tenthe thuoctinh ="giatri">...</ten the>
+             <tenthe ++ ="giatri" />
+
+Cấu trúc: tên thuộc tính = "Giá trị"
+          tên thuộc tính
+đặc điểm: mỗi loại thẻ sẽ có các thuộc tính riêng , 1 thẻ có thể chứa nhiều thuộc tính, cách nhau bởi dấu cách
+tại 1 thời điểm , 1 thuộc tính không được xuất hiện quá 1 lần trên 1 thẻ
+
+
+CSS:
+cú pháp:
+        thuộc tính: giá trị;
+        VD: thuộc tính: color       giá trị: red
+                        font                 Arias
+                        width                300px
+                        height               200px
+                        position
+    
+Vị trí code 1: inline - trong thuộc tính "style" của HTML
+               internal - trong thẻ "style" ( thường nằm trong thẻ head)
+               external - đặt ra file riêng. đuôi .CSS và nhúng vào website thông qua thẻ link
+cách viết internal , external
+
+Cú pháp     selector {
+                        thuộc tính: giá trị;
+                        thuộc tính 2: giá trị 2;
+                                                    }
+Class và id của HTML là thuộc tính của HTML <tên thẻ class="c1" id="id1">...</tên thẻ>
+trong 1 website có thể có nhiều class trùng nhau
+1 thẻ có thể thuộc về nhiều class class="c1 c2 c3"
+trong 1 website chỉ có 1 id duy nhất
+1 thẻ chỉ thuộc về 1 id 
+
+
+selector: *{
+    //code          dấu * là bao gồm tất cả  các thẻ trong html
+}
+
+tên thẻ{ Tất cả thẻ html trùng tên
+    //code
+}
+
+.tên class{ tất cả thẻ có class
+    //code
+}
+
+#tên id{ tất cả thẻ chứa id
+    //code
+}
+
+tên thẻ.tên class{  thẻ có class tương ứng
+    //code
+}
+
+tên thẻ#id
+
+class1.class2 { thẻ vừa có class 1 và class 2.
+    //code
+}
+
+selector1, selector2 { áp dụng cho cả selector 1 và selector 2
+    //code
+}
+
+selector1 selector2 { áp dụng cho selector 2 với 2 là con của selector 1
+    //code
+}
+
+selector 1 > selector 2 { áp dụng cho selector2 với selector2 là con trực tiếp của selector1
+    //code
+}
+
+selector:hover { áp dụng cho selector khi di chuột vào
+
+}
